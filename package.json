@@ -1,0 +1,14 @@
+{
+  "name": "midiToBeeps",
+  "version": "1.0.0",
+  "description": "Converts a MIDI file to a custom format for a beeper",
+  "main": "midiToBeeps.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Baegus",
+  "license": "ISC",
+  "dependencies": {
+    "midi-file": "^1.2.4"
+  }
+}
