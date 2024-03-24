@@ -45,7 +45,7 @@ function convertMidiToCustomFormat(midiFilePath, outputFilePath, tempo) {
 						name: noteData.name,
 						start: totalDelta,
 						duration: false, // new note, we don't know the duration yet
-						isOff: false, // once the note gets turned off, it's duration will be calculated
+						isOff: false, // once the note gets turned off, its duration will be calculated
 					}
 					notes.push(note);
 					break;
@@ -75,7 +75,7 @@ function convertMidiToCustomFormat(midiFilePath, outputFilePath, tempo) {
 			lastPosition += note.duration + pause;
 		});
 
-		console.log(output);
+		// console.log(output); // debug output
 
 		return output;
 	});
